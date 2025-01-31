@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navnbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(108, 76, 43);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    align-items: center;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+}
+.nav-1 .nav-icon{
+    font-size: 28px;
+    margin-right: 20px;
+}
+.nav-2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.nav-3 span{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* banner section */
+.banner{
+    background-image: url("../img/basket.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left : 60px;
+}
+.banner-text h1{
+    font-size: 80px;
+    color: rgb(108, 76, 43);
+}
+.banner-text p{
+    font-size: 18px;
+    color: rgb(150, 115, 79);
+    margin: 20px 0;
+}
+.main-btn{
+    /* font-size: 80px; */
+    background-color: rgb(108, 76, 43);
+    color: white;
+    border-radius: 40px;
+    padding: 10px 30px;
+    border: none;
+    transition-duration: 1s;
+}
+.main-btn:hover{
+    background-color: white;
+    color: rgb(108, 76, 43);
+    cursor: pointer;
+}
+
+/* story section */
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 0;
+}
+.story-left{
+    width: 35%;
+}
+.story-right{
+    width: 35%;
+}
+.story-left img{
+    width: 100%;
+}
+.story-text p:first-child{
+    color: rgb(108, 76, 43);
+}
+.story-text>h1{
+    margin: 30px 0;
+}
+.story-child{
+    display: flex;
+    gap: 40px;
+    margin: 30px 0;
+}
+.story-child h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+/* Founder section */
+.founder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.founder img{
+    margin: 15px 0;
+}
+
+/* New Section */
+.new-card{
+    width: 220px;
+}
+.new-card img{
+    width: 100%;
+}
+.new{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: 60px 130px;
+}
+.new-left .new-right{
+    width: 35%;
+}
+.new-right img{
+    width: 100%;
+}
+.new-left-child{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* feature section */
+.feature{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px ;
+    /* padding: 50px; */
+}
+.feature-card{
+    text-align: center;
+    border-right: 1px solid rgb(148, 137, 137);
+    width: 18%;
+    padding: 0 10px;
+}
+.feature-card h4{
+    margin: 20px 0;
+}
+.feature-icon{
+    font-size: 34px;
+}
+.f-card{
+    border: none;
+}
+
+/* Shop Section */
+.shop-card{
+    width: 220px;
+}
+.shop-card img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgb(189, 189, 189);
+    transition-duration: 2s;
+}
+.shop-card img:hover{
+    transform: scale(1.1);
+}
+.shop-child{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.shop{
+    padding: 0px 170px;
+    margin: 50px 0;
+}
+
+/* Collection section */
+.collect{
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.collect-1 img{
+    width: 450px;
+    height: 500px;
+}
+.collect-2 img{
+    width: 400px;
+    height: 400px;
+    margin: 20px 0;
+}
+.collect-2 span{
+    padding-left: 130px;
+}
+.collect-2 h1{
+    font-weight: 500;
+}
+
+/* Description Section */
+.Disc{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 100px;
+}
+.Disc-2 img{
+    width: 400px;
+    height: 250px;
+}
+.Disc-1 .D1{
+    padding-top: 40px;
+}
+
+/* photos section */
+.photos{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.photos h2{
+    margin-top: 250px;
+    padding-left: 60px;
+    text-shadow: 6px 2px 4px rgba(0, 0, 0);
+
+}
+.photo2 h2{
+    margin-top: 250px;
+    padding-left: 25px;
+}
+.photo1, .photo2, .photo3{
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    text-align: bottom;
+    font-weight: 1000;
+}
+.photo1{
+    background-image: url("/img/gallery-4-1.jpg");
+}
+.photo2{
+    background-image: url("/img/gallery-5-1.jpg");
+}
+.photo3{
+    background-image: url("/img/gallery-6-1.jpg");
+}
+
+/* follow section  */
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+}
+.icons{
+    width: 500px;
+    background-color: #6C4C2B;
+    color: white;
+    border-radius: 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+.icons a:hover{
+    background-color: #d1b08f;
+    color: #6C4C2B;
+    
+}
+
+/* footer section  */
+footer{
+    background-color:#F9F4E9 ;
+    padding: 30px 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+}
+.fpart-1, .fpart-5{
+    width: 20%;
+}
+.fpart-1 h2{
+    font-size: 30px;
+}
+.fpart-1 p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.foot-icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.foot-icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.foot-ul{
+    list-style: none;
+}
+.foot-ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 2px 0;
+    display: inline-block;
+    font-size: 14px;
+}
+.foot-ul li {
+    margin: 2px 0;
+    font-size: 14px;
+}
+.foot-h4{
+    font-size: 14px;
+}
+.footer-2{
+    margin: 60px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-2 h1{
+    font-size: 38px;
+    font-weight: 500;
+}
+.footer-2 span{
+    color: gray;
+    font-size: 12px;
+}
+.footer-2 form input{
+    padding: 10px;
+    width: 550px;
+    border-radius: 40px;
+    border: none;
+}
+.footer-2 form {
+    margin-top: 40px;
+}
+.footer-2 form button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 30px;
+    margin-left: -130px;
+}
+.footer-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.footer-3 p{
+    font-size: 14px;
+}
+.footer-3 p span{
+    color: orange;
+}
